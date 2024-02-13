@@ -7,102 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <!--Styles-->
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Modals</title>
+    <title>Document</title>
 </head>
 <body>
-    <button type="button" class="button" data-modal-open>Read more...</button>
-    <!--About (How it’s made?)-->
-    <!--Modal window <Read More>-->
-    <div class="is-hidden modal" data-modal>
-        <div class="modal-bg">
-          <button class="modal-close" type="button" data-modal-close>
-            <svg width="8" height="8" class="close-svg">
-              <use href="./images/icons.svg#close"></use>
-            </svg>
-          </button>
-          <p class="modal-title">Leave your contacts and we will call you back</p>
-          <form>
-            <div class="modal-field-container">
-              <label class="modal-field" for="user-name">Name</label>
-              <div class="input-container">
-                <input
-                  required
-                  type="text"
-                  name="user-name"
-                  placeholder=""
-                  id="user-name"
-                  class="inp"
-                />
-                <svg width="18" height="24" class="svg-field">
-                  <use href="./images/icons.svg#person"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="modal-field-container">
-              <label class="modal-field" for="user-phone">Phone</label>
-              <div class="input-container">
-                <input
-                  required
-                  type="tel"
-                  name="phone"
-                  id="user-phone"
-                  class="inp"
-                />
-                <svg width="18" height="24" class="svg-field">
-                  <use href="./images/icons.svg#phone"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="modal-field-container">
-              <label class="modal-field" for="user-email">Email</label>
-              <div class="input-container">
-                <input
-                  required
-                  type="email"
-                  name="email"
-                  id="user-email"
-                  class="inp"
-                />
-                <svg width="18" height="24" class="svg-field">
-                  <use href="./images/icons.svg#email"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="modal-field-container align-comment-field">
-              <label class="modal-field" for="user-comment">Comment</label
-              ><textarea
-                class="comment-field"
-                id="user-comment"
-                name="user-comment"
-                rows="5"
-                placeholder="Text input"
-              ></textarea>
-            </div>
-            <div class="checkbox-container">
-              <input
-                class="inp visually-hidden"
-                id="user-privacy"
-                type="checkbox"
-                name="user-privacy"
-                value="true"
-              />
-              <label class="form-label modal-field" for="user-privacy">
-                <span class="checkbox-icon">
-                  <svg width="10" height="8" class="svg-checkbox">
-                    <use href="./images/icons.svg#checkmark"></use>
-                  </svg>
-                </span>
-                I accept the terms and conditions of the
-                <a class="privacy_policy_link" href="">Privacy Policy</a>
-              </label>
-            </div>
-  
-            <button type="submit" class="button">Send</button>
-          </form>
-        </div>
-      </div>
-
-    <!--Our Locations and Franchise-->
+    <button type="button" class="button" data-modal-open>Our Locations <span>Franchise</span></button>
+ <!--Our Locations and Franchise-->
     <!--Modal window Locations-->
     <div class="is-hidden modal" data-modal="two">
         <div class="modal-bg">
